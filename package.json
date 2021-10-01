@@ -7,17 +7,27 @@
   "bin": "bin/pkgtoc.js",
   "author": "Warby Parker",
   "license": "Apache-2.0",
+  "scripts": {
+    "build": "npx babel src/pkgtoc.js -o dist/pkgtoc.js --presets=@babel/preset-env",
+    "test": "npx jest -u"
+  },
   "dependencies": {
-    "camelcase": "^5.0.0",
-    "chalk": "^2.4.1",
-    "glob": "^7.1.2",
-    "minimist": "^1.2.0",
-    "prettier": "^1.13.4"
+    "camelcase": "^6.2.0",
+    "chalk": "^4.1.2",
+    "core-js": "3",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.2.0",
+    "minimist": "^1.2.5",
+    "prettier": "^2.4.1"
   },
   "devDependencies": {
-    "glob": "^7.1.2",
-    "jest": "^23.1.0",
-    "jest-mock-console": "^0.3.5"
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "codecov": "^3.8.3",
+    "jest": "^27.2.4",
+    "jest-mock-console": "^0.3.5",
+    "nyc": "^15.1.0"
   },
   "gitHead": "e4ceb90a6bd067f28fea919da4b18c9b392732f8"
 }

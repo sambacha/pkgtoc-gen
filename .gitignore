@@ -1,2 +1,8 @@
 .DS_Store
 node_modules
+build/
+.nyc*
+.coverage/
+coverage/
+cache/
+.cache/
