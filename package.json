@@ -1,6 +1,6 @@
 {
   "name": "pkgtoc-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Markdown table of contents creator for monorepo packages",
   "src": "src/pkgtoc.js",
   "main": "tmp/pkgtoc.js",
