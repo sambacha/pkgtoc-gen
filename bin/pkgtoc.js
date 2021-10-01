@@ -2,7 +2,7 @@
 
 const minimist = require("minimist");
 const camelCase = require("camelcase");
-const { pkgtoc } = require("../dist/pkgtoc");
+const { pkgtoc } = require("../tmp/pkgtoc");
 
 const getAndNormalizeFlags = () => {
   const flags = minimist(process.argv.slice(2), {
