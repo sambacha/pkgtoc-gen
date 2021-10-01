@@ -1,0 +1,8 @@
+{
+  "name": "fake-package-2",
+  "description": "Fake package 2",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}

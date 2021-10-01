@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pkgtoc 1 columns should match snapshot 1`] = `
+"**Fixtures**
+
+| Package                                                                                                                       |
+| :---------------------------------------------------------------------------------------------------------------------------- |
+| **[a-fake-package-3](packages/scripts/pkgtoc/test/fixtures/fake-package-3/)**<br />A Fake package 3 (add 'a' to show sorting) |
+| **[fake-package-1](packages/scripts/pkgtoc/test/fixtures/fake-package-1/)**<br />Fake package 1                               |
+| **[fake-package-2](packages/scripts/pkgtoc/test/fixtures/fake-package-2/)**<br />Fake package 2                               |
+"
+`;
+
+exports[`pkgtoc 1 columns should match snapshot with shields 1`] = `
+"**Fixtures**
+
+| Package                                                                                                                                                                                                                            |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![a-fake-package-3 npm badge)](https://img.shields.io/npm/v/a-fake-package-3.svg?colorB=cb3837)<br />**[a-fake-package-3](packages/scripts/pkgtoc/test/fixtures/fake-package-3/)**<br />A Fake package 3 (add 'a' to show sorting) |
+| ![fake-package-1 npm badge)](https://img.shields.io/npm/v/fake-package-1.svg?colorB=cb3837)<br />**[fake-package-1](packages/scripts/pkgtoc/test/fixtures/fake-package-1/)**<br />Fake package 1                                   |
+| ![fake-package-2 npm badge)](https://img.shields.io/npm/v/fake-package-2.svg?colorB=cb3837)<br />**[fake-package-2](packages/scripts/pkgtoc/test/fixtures/fake-package-2/)**<br />Fake package 2                                   |
+"
+`;
+
+exports[`pkgtoc 2 columns should match snapshot 1`] = `
+"**Fixtures**
+
+| Package                                                                       | Description                                |
+| :---------------------------------------------------------------------------- | :----------------------------------------- |
+| **[a-fake-package-3](packages/scripts/pkgtoc/test/fixtures/fake-package-3/)** | A Fake package 3 (add 'a' to show sorting) |
+| **[fake-package-1](packages/scripts/pkgtoc/test/fixtures/fake-package-1/)**   | Fake package 1                             |
+| **[fake-package-2](packages/scripts/pkgtoc/test/fixtures/fake-package-2/)**   | Fake package 2                             |
+"
+`;
+
+exports[`pkgtoc 2 columns should match snapshot w/ shields 1`] = `
+"**Fixtures**
+
+| Package                                                                       | Version                                                                                         | Description                                |
+| :---------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------- | :----------------------------------------- |
+| **[a-fake-package-3](packages/scripts/pkgtoc/test/fixtures/fake-package-3/)** | ![a-fake-package-3 npm badge)](https://img.shields.io/npm/v/a-fake-package-3.svg?colorB=cb3837) | A Fake package 3 (add 'a' to show sorting) |
+| **[fake-package-1](packages/scripts/pkgtoc/test/fixtures/fake-package-1/)**   | ![fake-package-1 npm badge)](https://img.shields.io/npm/v/fake-package-1.svg?colorB=cb3837)     | Fake package 1                             |
+| **[fake-package-2](packages/scripts/pkgtoc/test/fixtures/fake-package-2/)**   | ![fake-package-2 npm badge)](https://img.shields.io/npm/v/fake-package-2.svg?colorB=cb3837)     | Fake package 2                             |
+"
+`;
+
+exports[`pkgtoc 3 columns should match snapshot 1`] = `
+"**Fixtures**
+
+| Package                                                                       | Description                                |
+| :---------------------------------------------------------------------------- | :----------------------------------------- |
+| **[a-fake-package-3](packages/scripts/pkgtoc/test/fixtures/fake-package-3/)** | A Fake package 3 (add 'a' to show sorting) |
+| **[fake-package-1](packages/scripts/pkgtoc/test/fixtures/fake-package-1/)**   | Fake package 1                             |
+| **[fake-package-2](packages/scripts/pkgtoc/test/fixtures/fake-package-2/)**   | Fake package 2                             |
+"
+`;
+
+exports[`pkgtoc 3 columns should match snapshot w/ shields 1`] = `
+"**Fixtures**
+
+| Package                                                                       | Version                                                                                         | Description                                |
+| :---------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------- | :----------------------------------------- |
+| **[a-fake-package-3](packages/scripts/pkgtoc/test/fixtures/fake-package-3/)** | ![a-fake-package-3 npm badge)](https://img.shields.io/npm/v/a-fake-package-3.svg?colorB=cb3837) | A Fake package 3 (add 'a' to show sorting) |
+| **[fake-package-1](packages/scripts/pkgtoc/test/fixtures/fake-package-1/)**   | ![fake-package-1 npm badge)](https://img.shields.io/npm/v/fake-package-1.svg?colorB=cb3837)     | Fake package 1                             |
+| **[fake-package-2](packages/scripts/pkgtoc/test/fixtures/fake-package-2/)**   | ![fake-package-2 npm badge)](https://img.shields.io/npm/v/fake-package-2.svg?colorB=cb3837)     | Fake package 2                             |
+"
+`;
+
+exports[`pkgtoc colors should match snapshot 1`] = `
+"**Fixtures**
+
+| Package                                                                                                                                                                                                                            |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![a-fake-package-3 npm badge)](https://img.shields.io/npm/v/a-fake-package-3.svg?colorB=000000)<br />**[a-fake-package-3](packages/scripts/pkgtoc/test/fixtures/fake-package-3/)**<br />A Fake package 3 (add 'a' to show sorting) |
+| ![fake-package-1 npm badge)](https://img.shields.io/npm/v/fake-package-1.svg?colorB=000000)<br />**[fake-package-1](packages/scripts/pkgtoc/test/fixtures/fake-package-1/)**<br />Fake package 1                                   |
+| ![fake-package-2 npm badge)](https://img.shields.io/npm/v/fake-package-2.svg?colorB=000000)<br />**[fake-package-2](packages/scripts/pkgtoc/test/fixtures/fake-package-2/)**<br />Fake package 2                                   |
+"
+`;
+
+exports[`pkgtoc colors should match snapshot with auto shields 1`] = `
+"**Fixtures**
+
+| Package                                                                                                                                                                                                              |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![a-fake-package-3 npm badge)](https://img.shields.io/badge/npm-1.0.0-ff0000.svg)<br />**[a-fake-package-3](packages/scripts/pkgtoc/test/fixtures/fake-package-3/)**<br />A Fake package 3 (add 'a' to show sorting) |
+| ![fake-package-1 npm badge)](https://img.shields.io/badge/npm-10.0.0-ff0000.svg)<br />**[fake-package-1](packages/scripts/pkgtoc/test/fixtures/fake-package-1/)**<br />Fake package 1                                |
+| ![fake-package-2 npm badge)](https://img.shields.io/badge/npm-1.0.0-ff0000.svg)<br />**[fake-package-2](packages/scripts/pkgtoc/test/fixtures/fake-package-2/)**<br />Fake package 2                                 |
+"
+`;
+
+exports[`pkgtoc colors should match snapshot with shields 1`] = `
+"**Fixtures**
+
+| Package                                                                                                                                                                                                                            |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![a-fake-package-3 npm badge)](https://img.shields.io/npm/v/a-fake-package-3.svg?colorB=ff0000)<br />**[a-fake-package-3](packages/scripts/pkgtoc/test/fixtures/fake-package-3/)**<br />A Fake package 3 (add 'a' to show sorting) |
+| ![fake-package-1 npm badge)](https://img.shields.io/npm/v/fake-package-1.svg?colorB=ff0000)<br />**[fake-package-1](packages/scripts/pkgtoc/test/fixtures/fake-package-1/)**<br />Fake package 1                                   |
+| ![fake-package-2 npm badge)](https://img.shields.io/npm/v/fake-package-2.svg?colorB=ff0000)<br />**[fake-package-2](packages/scripts/pkgtoc/test/fixtures/fake-package-2/)**<br />Fake package 2                                   |
+"
+`;
+
+exports[`pkgtoc default should match snapshot 1`] = `
+"**Fixtures**
+
+| Package                                                                       | Description                                |
+| :---------------------------------------------------------------------------- | :----------------------------------------- |
+| **[a-fake-package-3](packages/scripts/pkgtoc/test/fixtures/fake-package-3/)** | A Fake package 3 (add 'a' to show sorting) |
+| **[fake-package-1](packages/scripts/pkgtoc/test/fixtures/fake-package-1/)**   | Fake package 1                             |
+| **[fake-package-2](packages/scripts/pkgtoc/test/fixtures/fake-package-2/)**   | Fake package 2                             |
+"
+`;

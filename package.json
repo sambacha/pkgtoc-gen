@@ -1,0 +1,23 @@
+{
+  "name": "pkgtoc",
+  "version": "0.5.1",
+  "description": "Markdown table of contents creator for monorepo packages",
+  "src": "src/pkgtoc.js",
+  "main": "dist/pkgtoc.js",
+  "bin": "bin/pkgtoc.js",
+  "author": "Warby Parker",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "camelcase": "^5.0.0",
+    "chalk": "^2.4.1",
+    "glob": "^7.1.2",
+    "minimist": "^1.2.0",
+    "prettier": "^1.13.4"
+  },
+  "devDependencies": {
+    "glob": "^7.1.2",
+    "jest": "^23.1.0",
+    "jest-mock-console": "^0.3.5"
+  },
+  "gitHead": "e4ceb90a6bd067f28fea919da4b18c9b392732f8"
+}
