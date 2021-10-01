@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Markdown table of contents creator for monorepo packages",
   "src": "src/pkgtoc.js",
-  "main": "dist/pkgtoc.js",
+  "main": "tmp/pkgtoc.js",
   "bin": "bin/pkgtoc.js",
-  "author": "Warby Parker",
   "license": "Apache-2.0",
   "scripts": {
     "build": "npx babel src/pkgtoc.js -o dist/pkgtoc.js --presets=@babel/preset-env",
